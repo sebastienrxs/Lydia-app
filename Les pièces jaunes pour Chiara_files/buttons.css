@@ -1,0 +1,128 @@
+.base-lydia-btn {
+  color:black;
+  border:1px solid #DEDEDE;
+  font-family: 'ProximaNova-Regular', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+  background: white;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  font-size: 14px;
+  padding: 11px 18px;
+  text-decoration: none;
+  text-decoration:none;
+  display: inline-block;
+  text-align:center;
+  outline: 0px;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.base-lydia-btn:active,.base-lydia-btn:focus,.base-lydia-btn:hover {
+    text-decoration: none;
+}
+
+.bigger {
+    font-size:18px;
+}
+
+.smaller {
+    padding: 3px 16px;
+}
+
+@media (max-height: 670px) {
+    .bigger {
+        font-size:14px;
+    }
+}
+.base-lydia-btn:hover, .base-lydia-btn:active {
+    text-decoration:none;
+    color:black;
+    background: #F4F4F4;
+}
+
+
+.base-lydia-btn.pink-btn {
+    border:1px solid #E32667;
+    color:white;
+    background: #E32667;
+}
+
+.base-lydia-btn.empty-pink-btn {
+    border:1px solid #E32667;
+    color:#E32667;
+}
+
+.base-lydia-btn.empty-pink-btn:hover {
+    border:1px solid #E32667;
+    color:white;
+    background: #E32667;
+}
+
+.base-lydia-btn.pink-btn:hover, .base-lydia-btn.pink-btn:active, .base-lydia-btn.pink-btn:focus {
+    border:1px solid #CF235F;
+    color:white;
+    background: #CF235F;
+}
+
+.base-lydia-btn.blue-btn {
+    border: none;
+    color: white;
+    background: #0180ff;
+}
+
+.base-lydia-btn.blue-btn:hover, .base-lydia-btn.blue-btn:active, .base-lydia-btn.blue-btn:focus {
+    border: none;
+    color:white;
+    background: #0076ec;
+}
+
+.base-lydia-btn.grey-btn {
+    border:1px solid #C4C4C4;
+    color:black;
+    background: #F4F4F4;
+}
+
+.base-lydia-btn.grey-btn:hover, .base-lydia-btn.grey-btn:active, .base-lydia-btn.grey-btn:focus {
+    border:1px solid #C4C4C4;
+    color:black;
+    background: #DBDBDB;
+}
+
+.base-lydia-btn.fb-btn {
+    border:none;
+    color:white;
+    background: #3b5998;
+}
+
+.base-lydia-btn.fb-btn:hover, .base-lydia-btn.fb-btn:active, .base-lydia-btn.fb-btn:focus {
+    border:none;
+    color:white;
+    background: #324a80;
+}
+
+
+.base-lydia-btn.tw-btn {
+    border:none;
+    color:white;
+    background: #00aced;
+}
+
+.base-lydia-btn.tw-btn:hover, .base-lydia-btn.tw-btn:active, .base-lydia-btn.tw-btn:focus {
+    border:none;
+    color:white;
+    background: #009bd4;
+}
+
+.base-lydia-btn.colored-bg-btn {
+    border:none;
+    color:#565656;
+    background: white;
+    opacity:0.9;
+}
+
+.base-lydia-btn.colored-bg-btn:hover, .base-lydia-btn.colored-bg-btn:active, .base-lydia-btn.colored-bg-btn:focus {
+    border:none;
+    color:black;
+    background: white;
+    opacity:1;
+}

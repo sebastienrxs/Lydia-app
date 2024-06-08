@@ -1,0 +1,79 @@
+.preview-share-container {
+    background-color:rgba(0, 0, 0, 0.8);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    padding: 10px;
+    text-align: center;
+    z-index:4;
+    font-family: 'ProximaNova-Light', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+}
+
+.share-popup {
+    padding:10px;
+}
+.preview-share-container {
+    padding:63px;
+}
+
+
+.share-popup h2 {
+    font-size: 20px;
+    padding-top:30px;
+    text-align: center;
+    font-family: 'ProximaNova-SemiBold', "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+
+
+.share-popup .base-lydia-btn {
+    margin-bottom: 40px;
+    width:200px;
+}
+.share-popup #share-link {
+    margin-bottom: 0px;
+}
+.share-popup .link{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'ProximaNova-Light', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica", Arial, sans-serif;
+    padding-top:30px;
+    padding-bottom:10px;
+
+}
+
+.preview-share-container button.close-panel-btn {
+    background: none;
+    border: none;
+    color: #FFF;
+    font-size: 32px;
+    position: absolute;
+    top: 3px;
+    right: 10px;
+}
+
+
+.new-collect-title {
+
+
+    display:block;
+    font-family: 'ProximaNova-SemiBold', "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+
+.preview-share-content span {
+    font-size:24px;
+    color:white;
+    display:block;
+    margin-bottom:15px;
+}
+
+@media (max-height: 670px) {
+    .preview-share-container {
+        padding:30px;
+    }
+    .preview-share-content span {
+        font-size:16px;
+    }
+}

@@ -1,0 +1,47 @@
+.lyd-alert {
+    text-align:left;
+    max-width:800px;
+    margin:auto;
+    padding:14px;
+    border-radius:4px;
+    overflow:auto;
+    margin-top:20px;
+    font-size:15px;
+    padding-right: 56px;
+    position:relative;
+}
+.lyd-alert .glyphicon {
+    margin-right:8px;
+}
+
+.lyd-alert.lyd-alert-red {
+    color:white;
+    background-color:#cd4439;
+}
+
+.lyd-alert.lyd-alert-green {
+    color:white;
+    background-color:#92cb56;
+}
+
+.lyd-alert.lyd-alert-white {
+    color:black;
+    background-color:#FFFFFF;
+}
+
+.lyd-close {
+    position:absolute;
+    top:7px;
+    right:14px;
+    outline:0;
+    background: none;
+    border: none;
+    font-size: 26px;
+    padding: 0px;
+    margin: 0px;
+    width:24px;
+}
+
+.filters-table tr{
+  margin-bottom: 15px;
+}
